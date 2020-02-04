@@ -1,0 +1,10 @@
+ dpkg-buildpackage -us -uc -ui -i -I
+dpkg-buildpackage: info: source package git-buildpackage
+dpkg-buildpackage: info: source version 0.9.17
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Guido Günther <agx@sigxcpu.org>
+ dpkg-source -i -I --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-checkbuilddeps: error: Unmet build dependencies: dh-python docbook2x flake8 gtk-doc-tools python-pydoctor python3-coverage python3-mock python3-nose python3-nosexcover python3-rpm python3-setuptools xsltproc rpm zipmerge curl
+dpkg-buildpackage: warning: build dependencies/conflicts unsatisfied; aborting
+dpkg-buildpackage: warning: (Use -d flag to override.)
