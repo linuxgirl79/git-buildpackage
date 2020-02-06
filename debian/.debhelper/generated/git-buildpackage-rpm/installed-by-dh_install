@@ -1,0 +1,6 @@
+debian/tmp/usr/bin/gbp-builder-mock
+debian/tmp/usr/lib/python3.7/dist-packages/gbp/rpm
+debian/tmp/usr/lib/python3.7/dist-packages/gbp/scripts/import_srpm.py
+debian/tmp/usr/lib/python3.7/dist-packages/gbp/scripts/pq_rpm.py
+debian/tmp/usr/lib/python3.7/dist-packages/gbp/scripts/buildpackage_rpm.py
+debian/tmp/usr/lib/python3.7/dist-packages/gbp/scripts/rpm_ch.py

@@ -1,0 +1,8 @@
+./examples/gbp-add-patch
+./examples/gbp-configure-unpatched-source
+./examples/gbp-svn-tag
+./examples/gbp-try-ff
+./examples/jenkins-scratchbuilder
+./examples/README.source
+./examples/wrap_cl.py
+./examples/zeitgeist-git.py
